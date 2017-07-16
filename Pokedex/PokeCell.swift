@@ -21,4 +21,9 @@ class PokeCell: UICollectionViewCell {
         thumbImg.image = UIImage(named: String(pokemon.pokedexId))
     }
     
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        layer.cornerRadius = 5.0
+    }
+    
 }

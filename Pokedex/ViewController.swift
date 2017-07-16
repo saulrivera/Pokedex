@@ -33,6 +33,8 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         if let cell = collection.dequeueReusableCell(withReuseIdentifier: "PokeCell", for: indexPath) as? PokeCell {
+            let poke = Pokemon(name: "Pokemon", pokedexId: indexPath.row + 1)
+            cell.configureCell(pokemon: poke)
             return cell
         } else {
             return UICollectionViewCell()
