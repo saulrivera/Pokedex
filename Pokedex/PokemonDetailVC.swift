@@ -16,9 +16,12 @@ class PokemonDetailVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        nameLbl.text = pokemon.name
+        nameLbl.text = pokemon.name.capitalized
     }
 
+    @IBAction func backSegue(_ sender: Any) {
+        dismiss(animated: true)
+    }
     
   
 
