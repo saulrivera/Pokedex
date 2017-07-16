@@ -28,12 +28,21 @@ class PokemonDetailVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         nameLbl.text = pokemon.name.capitalized
+        pokemon.downloadPokemonDetails {
+            self.updateUI()
+        }
     }
 
     @IBAction func backSegue(_ sender: Any) {
         dismiss(animated: true)
     }
     
-  
+    func updateUI() {
+        pokedexLbl.text = String(pokemon.pokedexId)
+        attackLbl.text = pokemon.attack
+        defenseLbl.text = pokemon.defense
+        heightLbl.text = pokemon.height
+        weightLbl.text = pokemon.weight
+    }
 
 }
