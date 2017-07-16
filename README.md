@@ -10,4 +10,4 @@ Here some snapshots:
 
 ![alt text](https://raw.githubusercontent.com/saulrivera/Pokedex/master/snaps/front.png)
 ![alt text](https://raw.githubusercontent.com/saulrivera/Pokedex/master/snaps/details.png)
-![alt text](https://raw.githubusercontent.com/saulrivera/Pokedex/master/snaps/searchMode.png)
+![alt text](https://raw.githubusercontent.com/saulrivera/Pokedex/master/snaps/search.png)
