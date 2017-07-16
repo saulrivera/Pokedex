@@ -26,8 +26,4 @@ class Pokemon {
         self._pokedexId = pokedexId
     }
     
-    
-    
-    
-    
 }
