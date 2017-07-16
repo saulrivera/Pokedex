@@ -70,7 +70,7 @@
                                 </constraints>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="aiV-Lo-vKP">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="poke_bg_1" translatesAutoresizingMaskIntoConstraints="NO" id="aiV-Lo-vKP">
                                 <rect key="frame" x="0.0" y="105" width="320" height="463"/>
                             </imageView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="X7c-Ru-bas">
@@ -462,7 +462,7 @@
     <resources>
         <image name="4" width="120" height="120"/>
         <image name="back" width="100" height="67"/>
-        <image name="bg" width="5426" height="3617"/>
         <image name="music" width="100" height="100"/>
+        <image name="poke_bg_1" width="1117" height="1077"/>
     </resources>
 </document>
