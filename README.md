@@ -8,6 +8,6 @@ The data is obtained from the API http://pokeapi.co/ Version 1.
 
 Here some snapshots:
 
-![alt text](https://raw.githubusercontent.com/saulrivera/Pokedex/master/snaps/front.png)
-![alt text](https://raw.githubusercontent.com/saulrivera/Pokedex/master/snaps/details.png)
-![alt text](https://raw.githubusercontent.com/saulrivera/Pokedex/master/snaps/search.png)
+<img src="https://raw.githubusercontent.com/saulrivera/Pokedex/master/snaps/front.png" width="270" align="left">
+<img src="https://raw.githubusercontent.com/saulrivera/Pokedex/master/snaps/details.png" width="270" align="left">
+<img src="https://raw.githubusercontent.com/saulrivera/Pokedex/master/snaps/search.png" width="270" align="left">
