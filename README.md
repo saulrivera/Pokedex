@@ -6,8 +6,8 @@ The app uses Alamofire to perform asynchronous request from API. To avoid overlo
 
 The data is obtained from the API http://pokeapi.co/ Version 1. 
 
-Here some snapshots:
-
-<img src="https://raw.githubusercontent.com/saulrivera/Pokedex/master/snaps/front.png" width="270" align="left">
-<img src="https://raw.githubusercontent.com/saulrivera/Pokedex/master/snaps/details.png" width="270" align="left">
-<img src="https://raw.githubusercontent.com/saulrivera/Pokedex/master/snaps/search.png" width="270" align="left">
+<p align="center">
+<img src="https://raw.githubusercontent.com/saulrivera/Pokedex/master/snaps/front.png" width="30%">
+<img src="https://raw.githubusercontent.com/saulrivera/Pokedex/master/snaps/details.png" width="30%">
+<img src="https://raw.githubusercontent.com/saulrivera/Pokedex/master/snaps/search.png" width="30%">
+</p>
